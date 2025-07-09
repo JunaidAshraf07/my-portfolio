@@ -19,7 +19,7 @@ export const ContactSection = () => {
     setTimeout(() => {
       toast({
         title: "Message sent",
-        description: "Your message has been sent successfully.",
+        description: "Thank you for your message, I will reach out to you shortly.",
       });
       setIsSubmitting(false);
     }, 1500);
@@ -59,10 +59,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Phone</h4>
                   <a
-                    href="tel:+923026114618"
+                    href="tel:+921212212122"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +92 3026114618
+                    +92 1212212122
                   </a>
                 </div>
               </div>
@@ -73,7 +73,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Rawalpindi,Pakistan
+                    Rawalpindi, Pakistan
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4>Connect with me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://www.linkedin.com/in/m-junaid-ashraf/" target="_blank">
                   <Linkedin />
                 </a>
                 <a href="#" target="_blank">

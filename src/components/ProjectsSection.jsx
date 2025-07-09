@@ -15,9 +15,9 @@ const projects = [
     id: 2,
     title: "Thumbtack",
     description:
-      "A platform for students to learn and grow their skills with interactive courses and quizzes.",
+      "A web application for finding and hiring local professionals for various services.",
     image: "/projects/thumbtack.png",
-    tags: ["HTML", "TailwindCSS", "Javacript"],
+    tags: ["HTML", "TailwindCSS", "JavaScript"],
     demoURL: "#",
     githubURL: "#",
   },
@@ -25,11 +25,11 @@ const projects = [
     id: 3,
     title: "Portfolio",
     description:
-      "A platform for students to learn and grow their skills with interactive courses and quizzes.",
+      "My personal portfolio showcasing my skills, projects, and experience.",
     image: "/projects/portfolio.png",
     tags: ["React", "TailwindCSS","HTML"],
     demoURL: "#",
-    githubURL: "#",
+    githubURL: "https://github.com/JunaidAshraf07/my-portfolio",
   },
 ];
 export const ProjectsSection = () => {
